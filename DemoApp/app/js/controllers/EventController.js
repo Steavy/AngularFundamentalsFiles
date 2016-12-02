@@ -20,7 +20,7 @@ eventsApp.controller('EventController',
            duration: 1,
            level: 'Advanced',
            abstract: 'In this session you will learn the ins and outs of directives!',
-           upVoteCount: 6
+           upVoteCount: 7
          },
          {
            name: 'Scopes for fun and profit',
