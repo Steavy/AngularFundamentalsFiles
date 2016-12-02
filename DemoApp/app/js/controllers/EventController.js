@@ -20,7 +20,7 @@ eventsApp.controller('EventController',
            duration: 1,
            level: 'Advanced',
            abstract: 'In this session you will learn the ins and outs of directives!',
-           upVoteCount: 0
+           upVoteCount: 6
          },
          {
            name: 'Scopes for fun and profit',
@@ -28,7 +28,7 @@ eventsApp.controller('EventController',
            duration: 2,
            level: 'Introductory',
            abstract: 'This session will take a closer look at scopes. Learn what they do, how they do it, and how to get them to do it for you.',
-           upVoteCount: 0
+           upVoteCount: 4
          },
          {
            name: 'Well Behaved Controllers',
@@ -36,7 +36,7 @@ eventsApp.controller('EventController',
            duration: 4,
            level: 'Intermediate',
            abstract: 'Controllers are the beginning of everything Angular does. Learn how to craft controllers that will win the respect of your friends and neighbors',
-           upVoteCount: 0
+           upVoteCount: 2
          }
        ]
     };
