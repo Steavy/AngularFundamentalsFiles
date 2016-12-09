@@ -2,7 +2,7 @@
 
 eventsApp.controller('EventController', 
   function EventController($scope) {
-    $scope.sortorder = 'name';
+    $scope.sortorder = '-upVoteCount';
     $scope.event = {
        name: 'Angular Boot Camp',
        date: '1/1/2013',
@@ -28,7 +28,7 @@ eventsApp.controller('EventController',
            duration: 2,
            level: 'Introductory',
            abstract: 'This session will take a closer look at scopes. Learn what they do, how they do it, and how to get them to do it for you.',
-           upVoteCount: 4
+           upVoteCount: 8
          },
          {
            name: 'Well Behaved Controllers',
